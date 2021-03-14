@@ -1,0 +1,65 @@
+apiVersion: v1
+entries:
+  cert-manager:
+  - apiVersion: v1
+    appVersion: v0.13.0
+    created: "2021-03-14T14:55:25.728253469-04:00"
+    description: A Helm chart for cert-manager
+    digest: 3fa627ac5687006856dbd4174470c16e3a8bd07ee9d5a82044771f6302cf8e3f
+    home: https://github.com/jetstack/cert-manager
+    keywords:
+    - kubermatic
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    maintainers:
+    - email: support@loodse.com
+      name: Loodse GmbH
+    name: cert-manager
+    sources:
+    - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
+    urls:
+    - http://127.0.0.1:8879/cert-manager-1.1.8.tgz
+    version: 1.1.8
+  nginx-ingress-controller:
+  - apiVersion: v1
+    appVersion: 0.29.0
+    created: "2021-03-14T14:55:25.728768625-04:00"
+    description: nginx-ingress-controller
+    digest: 8ac26f30bb7b71f0da4faa98e531228af33cc9deba153248fc1d96618ffe1d0b
+    home: https://github.com/kubernetes/ingress/
+    keywords:
+    - kubermatic
+    - nginx-ingress-controller
+    - nginx
+    maintainers:
+    - email: support@loodse.com
+      name: Loodse GmbH
+    name: nginx-ingress-controller
+    sources:
+    - https://github.com/kubernetes/ingress/tree/master/controllers/nginx
+    urls:
+    - http://127.0.0.1:8879/nginx-ingress-controller-1.1.4.tgz
+    version: 1.1.4
+  oauth:
+  - apiVersion: v1
+    appVersion: v2.22.0
+    created: "2021-03-14T14:55:25.730716104-04:00"
+    description: Dex
+    digest: aebad1b65edf79cd3b5efc5731c57ce907bd4b07a05f79e6aab607490675dbb6
+    home: https://github.com/dexidp/dex
+    keywords:
+    - kubermatic
+    - oauth
+    - dex
+    maintainers:
+    - email: support@loodse.com
+      name: Loodse GmbH
+    name: oauth
+    sources:
+    - https://github.com/kubermatic/kubermatic
+    urls:
+    - http://127.0.0.1:8879/oauth-1.3.1.tgz
+    version: 1.3.1
+generated: "2021-03-14T14:55:25.72093457-04:00"
